@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/yui-2.7.0.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.7/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/google-visualization-0.2.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/modalbox-0.4/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/google-visualization-0.2.2/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/google-visualization-0.2.2">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/google-visualization-0.2.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/google-visualization-0.2.2/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/hibernate-1.2.2" />
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/mail-0.9">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/mail-0.9/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/mail-0.9/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/mail-0.9/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/modalbox-0.4">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/modalbox-0.4/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/quartz-0.4.2">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/quartz-0.4.2/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/quartz-0.4.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/quartz-0.4.2/grails-app/services" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/tomcat-1.2.2">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/tomcat-1.2.2/src/groovy" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library">
+        <CLASSES>
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/mail-0.9/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/tomcat-1.2.2/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8/lib" />
+          <root url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/quartz-0.4.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/acegi-0.5.2/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/mail-0.9/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/quartz-0.4.2/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/richui-0.8/lib" recursive="false" />
+        <jarDirectory url="file://$USER_HOME_GRAILS$/1.2.2/projects/RateYourExperience1/plugins/tomcat-1.2.2/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.2.2" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.2.2" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.2.2" level="application" />
+  </component>
+</module>
+
