@@ -1,0 +1,72 @@
+dl.accordion-menu {
+    margin: 0;
+    padding: 0;
+    width: 42em;
+    background: white;
+}
+
+dl.accordion-menu dt.a-m-t {
+    margin: 0;
+    padding: .66em 1em;
+    color: black;
+    border: outset 3px #222222;
+    border-left-color: #dfdfdf;
+    border-top-color: #dfdfdf;
+    background: #FFdd00 url(../images/tree/menu/expandon.gif) 98% 90% no-repeat;
+}
+
+dl.accordion-menu dt.a-m-t-hover {
+    background: #ffeb9b url(../images/tree/menu/expand.gif) 98% 90% no-repeat;
+}
+
+dl.accordion-menu dt.a-m-t-down {
+    border: outset 1px #222222;
+    border-right-color: #dfdfdf;
+    border-bottom-color: #dfdfdf;
+
+}
+
+html.accordion-menu-js dt.a-m-t {
+    cursor: pointer;
+    zoom: 1;
+}
+
+dl.accordion-menu dd.a-m-d {
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+
+html.accordion-menu-js dd.a-m-d {
+    display: none;
+}
+
+html.accordion-menu-js dd.a-m-d-expand {
+    display: block;
+}
+
+html.accordion-menu-js dd.a-m-d-before-expand {
+    display: block;
+    position: relative;
+    z-index: -1;
+    opacity: 0;
+    height: auto !important;
+    visibility: hidden;
+    overflow: visible;
+}
+
+html.accordion-menu-js dt.a-m-t-expand {
+    border-left-color: #222222;
+    color: black;
+    background: #ffeb9b url(../images/tree/menu/collapseon.gif) 98% 98% no-repeat;
+}
+
+html.accordion-menu-js dd.a-m-d-anim {
+    overflow: hidden;
+    display: block;
+}
+
+dl.accordion-menu dd.a-m-d .bd {
+    padding: 0.5em;
+    border: outset 3px #aaaaaa;
+}
