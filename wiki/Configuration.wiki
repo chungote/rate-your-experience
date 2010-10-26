@@ -1,4 +1,4 @@
-#Database and Application Configuration
+#summary Database and Application Configuration
 
 =Configuration=
 
@@ -27,4 +27,3 @@ Go to grails { mail {. Set the properties for your smtp (mail) server: host, por
 ===Tomcat manager settings:===
 
 When you installed Apache Tomcat, you selected a username and password for Tomcat manager. Configure this information for Rate Your Experience by using the tomcat.deploy.username, tomcat.deploy.password, and tomcat.deploy.url properties.
-
