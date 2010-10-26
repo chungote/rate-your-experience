@@ -31,11 +31,11 @@ The following fields in the RYE database are integral to the functioning of the 
 Currently, there is no standard set of RETS fields that is consistent across MLS’s.  In order to facilitate RETS to RYE mapping, we’ve provided a sample Listing, Agent and Office mapping project that can be edited in Talend Open Studio.
 
 ==Talend Open Studio==
-Talend is a GUI open source mapping tool.  It requires Java.  [http://www.talend.com/download.php]Download version 3.x or later and then unzip.
+Talend is a GUI open source mapping tool.  It requires Java.  [http://www.talend.com/download.php Download]version 3.x or later and then unzip.
 
 Launch Talend. Under the Project dropdown, select “import existing project as local” and click GO.
 
 In the “import” dialogue, name your project “rye”.  Click the “select archive file” radio button. Browse to RateYourExperience\talend\rye_sample.zip. Click “finish”.
 You can edit the sample jobs to use your RETS files.  
 
-For detailed instructions on using Talend, [http://www.talend.com/resources/documentation.php]download the user guide.
+For detailed instructions on using Talend, [http://www.talend.com/resources/documentation.php download]the user guide.
