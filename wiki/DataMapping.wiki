@@ -1,0 +1,41 @@
+#summary Data Mapping from RETS to RYE
+
+= Mapping Data from RETS to RYE=
+
+
+==Important RYE Fields==
+
+The following fields in the RYE database are integral to the functioning of the system and found at every MLS (although sometimes under other names). 
+===Listing===
+•	Selling_agent_mls_id – the mls identifier for the buyer’s primary agent (foreign key is agent.mls_agent_id)
+•	Selling_office_mls_id – the mls identifier for the buyer’s primary  agent’s office (foreign key is agent.mls_office_id)
+•	Listing_agent_mls_id – the mls identifier for the primary  listing agent (foreign key is agent.mls_agent_id)
+•	Listing_office_mls_id – the mls identifier for the primary  listing agent’s office (foreign key is agent.mls_office_id)
+•	Mls_number – the mls identifier for a listing
+
+===Agent===
+•	Mls_agent_id – the mls identifier for this agent
+•	mls_office_id – the mls identifier for the agent’s office (foreign key to office.mls_office_id)
+•	mls_main_office_id – the mls identifier for the main office that all branches belong to (foreign key to broker.mls_main_office_id)
+
+===Office===
+•	Mls_office_id – the mls identifier for this office
+•	mls_main_office_id – the mls identifier for the main office that all branches belong to (foreign key to broker.mls_main_office_id)
+
+===Broker===
+•	mls_main_office_id – the mls identifier for the main office that all branches belong to. A broker is identified by a mls_main_office_id
+
+===Person===
+•	Participant_id  and Type – where type = “broker” participant_id is broker.id; where type=”agent”, participant_id = agent.id, where type=”provider” participant_id=service_provider.id
+
+Currently, there is no standard set of RETS fields that is consistent across MLS’s.  In order to facilitate RETS to RYE mapping, we’ve provided a sample Listing, Agent and Office mapping project that can be edited in Talend Open Studio.
+
+==Talend Open Studio==
+Talend is a GUI open source mapping tool.  It requires Java.  [http://www.talend.com/download.php]Download version 3.x or later and then unzip.
+
+Launch Talend. Under the Project dropdown, select “import existing project as local” and click GO.
+
+In the “import” dialogue, name your project “rye”.  Click the “select archive file” radio button. Browse to RateYourExperience\talend\rye_sample.zip. Click “finish”.
+You can edit the sample jobs to use your RETS files.  
+
+For detailed instructions on using Talend, [http://www.talend.com/resources/documentation.php]download the user guide.
