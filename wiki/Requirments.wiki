@@ -8,16 +8,16 @@ Rate Your Experience is an open source Grails web application that runs in a Jav
 ==System specifications==
 The minimum system requirement is 1GB RAM.  Storage and bandwidth depends on the size of your Association.  [http://www.slicehost.com/]SliceHost and [http://www.linode.com/]Linode offer low-cost virtual private server hosting packages that are ideal for small through large Associations.
 
-===Java===
+==Java==
 It is recommended that you use [http://www.oracle.com/us/technologies/java/index.html]Java 6 . You can find recent downloads [http://www.oracle.com/technetwork/java/javase/downloads/index.html]here, as well as installation instructions for your environment. 
 
-====Grails====
+==Grails==
 You need to install [http://www.grails.org/Download]Grails 1.2x. Download the binary file and follow the [http://www.grails.org/Installation]installation instructions.
 
-=====Apache Tomcat=====
+==Apache Tomcat==
 You will need a Java servlet container to run this web application.  It is  recommend that you use Apache Tomcat 5.5 or 6x.  [http://tomcat.apache.org/download-55.cgi]Download the binary distribution and follow the [http://tomcat.apache.org/tomcat-5.5-doc/setup.html]installation instructions. 
 
-======MySql======
+==MySql==
 It is recommended that you use a MySql 5.1 database.  Here are the links to [http://dev.mysql.com/downloads/mysql/]download and [http://dev.mysql.com/doc/refman/5.1/en/installing.html]install the free community version of MySql on your operating system.
 
 Once MySql is installed, you need to create a database named “rye”:
@@ -31,3 +31,6 @@ Next you will grant privileges for that user:
 GRANT ALL ON rye.* TO 'rye'@'localhost';
 
 Remember the password you created…we will need it when editing the configuration file!
+
+==RYE Code==
+[http://code.google.com/p/rate-your-experience/downloads/list]Download the latest release of project from the GoogleCode site as a zip file. You may also install [http://tortoisesvn.net/downloads]Tortoise-SVN and [http://rate-your-experience.googlecode.com/svn/trunk/ rate-your-experience-read-only]checkout the code using subversion.
